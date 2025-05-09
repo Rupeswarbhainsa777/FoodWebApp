@@ -36,15 +36,13 @@ tap-food-app/
 │ ├── main/
 │ │ ├── java/com/tapfoods/
 │ │ │ ├── controller/ # Handles HTTP requests
-│ │ │ ├── model/ # Entity classes
-│ │ │ ├── repository/ # Interfaces for DB access
-│ │ │ ├── service/ # Business logic layer
-│ │ │ └── TapFoodsApplication.java # Main Spring Boot app
-│ │ ├── resources/
+│ │ │ ├── model/ # pojo class 
+│ │ │ ├── dao interface/ 
+│ │ │ ├── dao implementation / 
 │ │ │ ├── static/ # CSS, JS, images
 │ │ │ ├── templates/ # HTML (Thymeleaf) views
 │ │ │ └── application.properties # Configuration
-│ │ └── webapp/ # Optional web assets
+│ │ └── webapp/ # jsp, htm ,css ,img 
 │ └── test/ # Unit/integration tests
 │
 ├── db/ # SQL scripts
