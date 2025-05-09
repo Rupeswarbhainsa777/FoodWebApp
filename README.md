@@ -39,8 +39,6 @@ tap-food-app/
 │ │ │ ├── model/ # pojo class 
 │ │ │ ├── dao interface/ 
 │ │ │ ├── dao implementation / 
-│ │ │ ├── static/ # CSS, JS, images
-│ │ │ ├── templates/ # HTML (Thymeleaf) views
 │ │ │ └── application.properties # Configuration
 │ │ └── webapp/ # jsp, htm ,css ,img 
 │ └── test/ # Unit/integration tests
